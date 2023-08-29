@@ -1,5 +1,5 @@
 
-- **build**: Este archivo es un script (proporciona el contenido si deseas una explicación más detallada).
+- **build.sh**: Este archivo es un script (proporciona el contenido si deseas una explicación más detallada).
 - **docker-entrypoint.sh**: Script de punto de entrada para el contenedor Docker.
 - **Dockerfile**: Archivo de configuración para construir la imagen del contenedor Docker.
 - **README.md**: Este archivo. Proporciona información sobre el proyecto y su uso.
@@ -17,7 +17,7 @@ A continuación se detallan los pasos para clonar el repositorio, construir la i
 
 ### Construcción y Ejecución del Contenedor
 
-3. Compila la imagen del contenedor: `./build` (proporciona más detalles sobre este paso si es necesario)
+3. Compila la imagen del contenedor: `./build.sh` (proporciona más detalles sobre este paso si es necesario)
 4. Ejecuta el contenedor: `docker run -it lam1623/node:10.24.1`
 
 ## Personalización
