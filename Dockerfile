@@ -34,10 +34,6 @@ ENV PATH $NODE_DIR/bin:$PATH
 # Instala gulp
 RUN npm install --global gulp-cli@2.2.0
 
-# Crea un usuario no root para ejecutar la aplicación
-RUN useradd -m myuser
-USER myuser
-
 # Crea el directorio para scripts de entrada
 RUN mkdir /docker-entrypoint.d/
 
