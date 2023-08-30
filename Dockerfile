@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Directorio donde se instalará nvm
-ARG NVM_DIR
+ARG NVM_DIR=/usr/local/nvm
 ARG NODE_VERSION
 
 # Instala nvm y node
