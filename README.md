@@ -1,31 +1,30 @@
+- **build.sh**: This file is a script (provides the content if you want a more detailed explanation).
+- **docker-entrypoint.sh**: Entry point script for the Docker container.
+- **Dockerfile**: Configuration file for building the Docker container image.
+- **README.md**: This file. It provides information about the project and its usage.
 
-- **build.sh**: Este archivo es un script (proporciona el contenido si deseas una explicación más detallada).
-- **docker-entrypoint.sh**: Script de punto de entrada para el contenedor Docker.
-- **Dockerfile**: Archivo de configuración para construir la imagen del contenedor Docker.
-- **README.md**: Este archivo. Proporciona información sobre el proyecto y su uso.
+## Description
 
-## Descripción
+Here you can provide a more detailed description of your project and what it does. Include any relevant context.
 
-Aquí puedes proporcionar una descripción más detallada de tu proyecto y lo que hace. Incluye cualquier contexto relevante.
+## Usage Instructions
 
-## Instrucciones de Uso
+Below are the steps to clone the repository, build the container image, and run it:
 
-A continuación se detallan los pasos para clonar el repositorio, construir la imagen del contenedor y ejecutarlo:
+1. Clone this repository: `git clone [https://github.com/lam1623/node-docker](https://github.com/lam1623/node-docker/)`
+2. Navigate to the project directory: `cd node-docker`
 
-1. Clona este repositorio: `git clone [https://github.com/lam1623/node-docker](https://github.com/lam1623/node-docker/)`
-2. Navega al directorio del proyecto: `cd node-docker`
+### Building and Running the Container
 
-### Construcción y Ejecución del Contenedor
+3. Build the container image: `./build.sh` (provide more details about this step if necessary)
+4. Run the container: `docker run -it lam1623/node:10.24.1`
 
-3. Compila la imagen del contenedor: `./build.sh` (proporciona más detalles sobre este paso si es necesario)
-4. Ejecuta el contenedor: `docker run -it lam1623/node:10.24.1`
+## Customization
 
-## Personalización
+If you wish to make any customizations, you can adjust the content of the Dockerfile and the build.sh file according to your needs. Make sure to understand the implications of the changes you make.
 
-Si deseas realizar alguna personalización, puedes ajustar el contenido del Dockerfile y el archivo build.sh según tus necesidades. Asegúrate de entender las implicaciones de los cambios que realices.
+## Contact
 
-## Contacto
-
-Si tienes preguntas o comentarios, no dudes en contactarme:
-- Nombre: Lino Alfonso
-- Correo electrónico: lleisdier.alfonso@gmail.com
+If you have any questions or comments, feel free to contact me:
+- Name: Lino Alfonso
+- Email: lleisdier.alfonso@gmail.com
